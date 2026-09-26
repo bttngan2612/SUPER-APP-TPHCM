@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <defs>
+    <linearGradient id="aliasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004890"/>
+      <stop offset="100%" stop-color="#00A86B"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="18" fill="url(#aliasGrad)"/>
+  
+  <text x="28" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Vietin<tspan fill="#6EE7B7">Bank</tspan></text>
+  <text x="28" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#A7F3D0" letter-spacing="1">ALIAS ACCOUNT</text>
+
+  <!-- Alias Tag Capsule -->
+  <rect x="28" y="90" width="344" height="60" rx="14" fill="#FFFFFF" fill-opacity="0.15" stroke="#6EE7B7" stroke-width="2"/>
+  <text x="48" y="128" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">@VIETIN.LUCKY99</text>
+
+  <text x="28" y="185" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">Tài khoản đặt theo Biệt danh, Tên Shop & SĐT</text>
+  <text x="28" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#6EE7B7">KHÔNG CẦN NHỚ DÃY SỐ DÀI • MIỄN PHÍ KHỞI TẠO</text>
+</svg>

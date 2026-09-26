@@ -1,0 +1,654 @@
+{
+  "brand": {
+    "name": "VietinBank",
+    "fullName": "Ngân hàng Thương mại Cổ phần Công Thương Việt Nam",
+    "slogan": "Nâng giá trị cuộc sống",
+    "hotline": "1900 558 868",
+    "email": "contact@vietinbank.vn",
+    "website": "https://www.vietinbank.vn",
+    "kioskTitle": "KIOSK TƯƠNG TÁC QUẦY GIAO DỊCH",
+    "kioskSubtitle": "Chạm để trải nghiệm dịch vụ tiện ích ngân hàng số thông minh",
+    "colors": {
+      "primary": "#004890",
+      "primaryDark": "#003266",
+      "secondary": "#009FE3",
+      "accent": "#ED1C24",
+      "accentHover": "#D6151C",
+      "surface": "#FFFFFF",
+      "background": "#F4F7FC"
+    },
+    "logoAsset": "./assets/vietinbank_logo.svg",
+    "bannerAsset": "./assets/hero_banner.svg"
+  },
+  "navigation": [
+    {
+      "id": "faq",
+      "title": "Giải đáp thắc mắc",
+      "shortTitle": "Hỏi đáp & Hỗ trợ",
+      "icon": "HelpCircle",
+      "badge": "24/7",
+      "description": "Tra cứu nhanh câu hỏi thường gặp, quy trình tại quầy và bảo mật sinh trắc học"
+    },
+    {
+      "id": "ipay",
+      "title": "Tải App VietinBank iPay",
+      "shortTitle": "VietinBank iPay",
+      "icon": "Smartphone",
+      "badge": "Siêu ứng dụng",
+      "description": "Quét mã tải app ngân hàng số, miễn phí trọn đời, mở tài khoản eKYC trong 2 phút"
+    },
+    {
+      "id": "game",
+      "title": "Thử thách Game",
+      "shortTitle": "Vòng quay & Quiz",
+      "icon": "Trophy",
+      "badge": "Có quà tặng",
+      "description": "Quay thưởng may mắn nhận e-voucher và quà lưu niệm trong khi đợi giao dịch"
+    },
+    {
+      "id": "savings",
+      "title": "Tính lãi tiền gửi",
+      "shortTitle": "Tính lãi tiết kiệm",
+      "icon": "PiggyBank",
+      "badge": "Lãi suất ưu đãi",
+      "description": "Dự toán số tiền lãi theo kỳ hạn, hình thức trả lãi và ưu đãi gửi online"
+    },
+    {
+      "id": "loan",
+      "title": "Lịch trả nợ khoản vay",
+      "shortTitle": "Kế hoạch vay vốn",
+      "icon": "Calculator",
+      "badge": "Chi tiết từng kỳ",
+      "description": "Lập bảng tiến độ trả nợ gốc và lãi theo dư nợ giảm dần hoặc niên kim"
+    },
+    {
+      "id": "products",
+      "title": "Sản phẩm dịch vụ nổi bật",
+      "shortTitle": "Sản phẩm nổi bật",
+      "icon": "Sparkles",
+      "badge": "Đặc quyền 2026",
+      "description": "Thẻ Eliv3 hoàn tiền, VietinBank Premium, Tài khoản Alias và Gói vay linh hoạt"
+    },
+    {
+      "id": "branches",
+      "title": "Điểm giao dịch",
+      "shortTitle": "Chi nhánh & R-ATM",
+      "icon": "MapPin",
+      "badge": "Toàn quốc",
+      "description": "Tìm phòng giao dịch, cây nộp/rút tiền tự động CDM, kiểm tra thời gian phục vụ"
+    }
+  ],
+  "faqSection": {
+    "title": "Trung tâm Giải đáp & Hỗ trợ Khách hàng",
+    "subtitle": "Giải đáp tức thì các thắc mắc thông dụng tại quầy giao dịch VietinBank",
+    "categories": [
+      { "id": "all", "label": "Tất cả" },
+      { "id": "biometric", "label": "Sinh trắc học (QĐ 2345)" },
+      { "id": "account", "label": "Tài khoản & Thẻ" },
+      { "id": "online", "label": "Ngân hàng số iPay" },
+      { "id": "credit", "label": "Tín dụng & Tiết kiệm" },
+      { "id": "counter", "label": "Thủ tục tại quầy" }
+    ],
+    "faqs": [
+      {
+        "id": "faq-1",
+        "category": "biometric",
+        "question": "Vì sao tôi cần cài đặt xác thực sinh trắc học khuôn mặt?",
+        "answer": "Theo Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước, từ ngày 01/07/2024, các giao dịch chuyển tiền trên 10 triệu đồng/giao dịch hoặc tổng giá trị giao dịch trong ngày vượt 20 triệu đồng bắt buộc phải xác thực bằng khuôn mặt khớp với dữ liệu trong thẻ CCCD gắn chip nhằm bảo vệ an toàn tối đa tài sản của Quý khách.",
+        "steps": [
+          "Chuẩn bị thẻ Căn cước công dân gắn chip (CCCD).",
+          "Mở VietinBank iPay Mobile > Chọn icon 'Cài đặt FacePay/Sinh trắc học'.",
+          "Chụp mặt trước, mặt sau CCCD và quét chip NFC ở mặt sau điện thoại.",
+          "Quét khuôn mặt theo hướng dẫn hoặc nhờ Giao dịch viên hỗ trợ ngay tại quầy."
+        ]
+      },
+      {
+        "id": "faq-2",
+        "category": "account",
+        "question": "Mở tài khoản thanh toán và phát hành thẻ VietinBank cần giấy tờ gì?",
+        "answer": "Quý khách chỉ cần mang theo bản gốc Căn cước công dân gắn chip (hoặc Hộ chiếu còn hiệu lực). Tại quầy, Giao dịch viên sẽ hỗ trợ mở tài khoản, đăng ký tên tài khoản theo số điện thoại/Alias và cấp thẻ phi vật lý ngay lập tức trên app iPay hoặc nhận thẻ vật lý sau 3-5 ngày làm việc.",
+        "steps": [
+          "Xuất trình CCCD gắn chip gốc còn hiệu lực cho giao dịch viên.",
+          "Ký xác nhận thông tin trên phiếu đăng ký dịch vụ (hoặc ký điện tử).",
+          "Nhận thông tin tài khoản và kích hoạt ứng dụng VietinBank iPay ngay lập tức."
+        ]
+      },
+      {
+        "id": "faq-3",
+        "category": "online",
+        "question": "Tôi bị quên mật khẩu hoặc bị khóa đăng nhập VietinBank iPay phải làm sao?",
+        "answer": "Quý khách có thể tự mở khóa hoặc cấp lại mật khẩu ngay trên màn hình đăng nhập ứng dụng VietinBank iPay bằng cách chọn 'Quên mật khẩu', sau đó xác thực thông tin giấy tờ và khuôn mặt. Hoặc Quý khách có thể thông báo cho Giao dịch viên tại quầy để được hỗ trợ mở khóa sau 1 phút.",
+        "steps": [
+          "Bấm 'Quên mật khẩu' tại màn hình đăng nhập iPay.",
+          "Nhập số CCCD và số điện thoại đã đăng ký.",
+          "Xác thực mã OTP và quét khuôn mặt theo quy định.",
+          "Nhận mật khẩu tạm thời gửi về tin nhắn SMS và tiến hành đổi mật khẩu mới."
+        ]
+      },
+      {
+        "id": "faq-4",
+        "category": "account",
+        "question": "Hạn mức chuyển tiền trên VietinBank iPay tối đa là bao nhiêu?",
+        "answer": "Đối với tài khoản đã hoàn tất định danh đầy đủ tại quầy và kích hoạt xác thực Soft OTP kết hợp Sinh trắc học, hạn mức chuyển khoản liên ngân hàng có thể lên tới 500 triệu VNĐ/lần và tối đa 3 tỷ VNĐ/ngày đối với khách hàng thông thường, lên tới 10 tỷ VNĐ/ngày đối với khách hàng Ưu tiên (VietinBank Premium).",
+        "steps": [
+          "Kiểm tra hạn mức trong phần: iPay > Cài đặt > Quản lý hạn mức giao dịch.",
+          "Nếu muốn nâng hạn mức tối đa, Quý khách đăng ký trực tiếp tại quầy hôm nay."
+        ]
+      },
+      {
+        "id": "faq-5",
+        "category": "credit",
+        "question": "Gửi tiết kiệm online trên app iPay có an toàn và được cộng thêm lãi suất không?",
+        "answer": "Hoàn toàn an toàn tuyệt đối, dữ liệu lưu trữ trực tiếp trên hệ thống Core Banking của VietinBank tương đương gửi tại quầy. Đặc biệt, khách hàng gửi tiết kiệm online trên VietinBank iPay được cộng thêm lãi suất ưu đãi từ 0.2% - 0.3%/năm so với biểu lãi suất niêm yết tại quầy và có thể tất toán linh hoạt 24/7.",
+        "steps": [
+          "Đăng nhập VietinBank iPay > Chọn 'Tiết kiệm'.",
+          "Chọn 'Gửi tiết kiệm online' > Nhập số tiền và chọn kỳ hạn phù hợp.",
+          "Kiểm tra lãi suất và xác nhận bằng Soft OTP/Sinh trắc học."
+        ]
+      },
+      {
+        "id": "faq-6",
+        "category": "counter",
+        "question": "Thời gian làm việc tại các quầy giao dịch VietinBank như thế nào?",
+        "answer": "Thời gian làm việc chung từ Thứ Hai đến Thứ Sáu: Sáng từ 8h00 - 11h30 (hoặc 12h00 tuỳ khu vực), Chiều từ 13h00 - 16h30 (hoặc 17h00). Nhiều chi nhánh trọng điểm tại Hà Nội, TP.HCM, Đà Nẵng có phục vụ sáng Thứ Bảy và hệ thống CDM/ATM nộp rút tự động hoạt động 24/7.",
+        "steps": [
+          "Có thể đặt lịch hẹn trước giờ đến quầy trên iPay để không phải chờ đợi.",
+          "Hệ thống R-ATM nộp và rút tiền mặt hoạt động thông suốt 24/7."
+        ]
+      }
+    ]
+  },
+  "ipaySection": {
+    "title": "VietinBank iPay Mobile",
+    "subtitle": "Hệ sinh thái Ngân hàng số Đa tiện ích dẫn đầu kỷ nguyên số",
+    "qrCodeImage": "./assets/qr_ipay_download.svg",
+    "mockupImage": "./assets/ipay_phone_mockup.svg",
+    "rating": "4.8",
+    "reviewsCount": "1.2M+ đánh giá",
+    "downloadCount": "15,000,000+ lượt tải",
+    "appStoreUrl": "https://apps.apple.com/vn/app/vietinbank-ipay/id681604724",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.vietinbank.ipay",
+    "highlights": [
+      {
+        "icon": "ShieldCheck",
+        "title": "Bảo mật sinh trắc học chuẩn quốc tế",
+        "desc": "Công nghệ FacePay & NFC khớp dữ liệu Bộ Công An, an toàn tối đa cho mọi khoản tiền."
+      },
+      {
+        "icon": "Zap",
+        "title": "0đ Phí trọn đời",
+        "desc": "Miễn 100% phí chuyển khoản liên ngân hàng 24/7, phí duy trì tài khoản và phí biến động số dư qua OTT."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Gửi tiết kiệm cộng thêm lãi suất",
+        "desc": "Nhận ngay thêm tới 0.3%/năm lãi suất so với gửi tại quầy, rút tiền linh hoạt không mất phí."
+      },
+      {
+        "icon": "Plane",
+        "title": "Hệ sinh thái thanh toán phong phú",
+        "desc": "Đặt vé máy bay, vé tàu, taxi, xem phim, đặt hoa tươi, mua sắm VnShop và thanh toán hoá đơn chỉ trong 1 chạm."
+      }
+    ],
+    "onboardingSteps": [
+      {
+        "step": "1",
+        "title": "Tải App & Chọn 'Mở tài khoản mới'",
+        "detail": "Quét mã QR bên cạnh hoặc tải VietinBank iPay từ App Store / Google Play."
+      },
+      {
+        "step": "2",
+        "title": "Chụp CCCD & Quét NFC",
+        "detail": "Chụp rõ nét mặt trước sau thẻ CCCD gắn chip và áp mặt sau điện thoại để đọc chip."
+      },
+      {
+        "step": "3",
+        "title": "Xác thực khuôn mặt & Chọn số tài khoản",
+        "detail": "Quay mặt theo chỉ dẫn để nhận diện khuôn mặt và tự do chọn số tài khoản đẹp theo ý thích."
+      },
+      {
+        "step": "4",
+        "title": "Giao dịch ngay lập tức",
+        "detail": "Kích hoạt dịch vụ thành công, sẵn sàng nhận tiền, chuyển tiền và mua sắm không giới hạn."
+      }
+    ]
+  },
+  "gameSection": {
+    "title": "Góc Tương Tác: Thử Thách May Mắn VietinBank",
+    "subtitle": "Dành riêng cho khách hàng trải nghiệm tại quầy - Chơi là trúng, nhận quà tức thì",
+    "wheelPrizes": [
+      { "id": 1, "text": "Bình giữ nhiệt VietinBank", "color": "#004890", "textColor": "#FFFFFF", "voucherCode": "VTB-TERMO-2026", "type": "physical", "desc": "Nhận quà trực tiếp tại bàn Giao dịch viên" },
+      { "id": 2, "text": "E-Voucher 50K Highland Coffee", "color": "#009FE3", "textColor": "#FFFFFF", "voucherCode": "HL-COFFEE-50K", "type": "voucher", "desc": "Mã e-voucher điện tử sử dụng toàn quốc" },
+      { "id": 3, "text": "+0.3% Lãi suất tiết kiệm", "color": "#ED1C24", "textColor": "#FFFFFF", "voucherCode": "BONUS-RATE-03", "type": "rate", "desc": "Áp dụng cho sổ tiết kiệm mở online hoặc tại quầy hôm nay" },
+      { "id": 4, "text": "Ô cao cấp VietinBank", "color": "#003266", "textColor": "#FFFFFF", "voucherCode": "VTB-UMBRELLA", "type": "physical", "desc": "Ô gập tự động cao cấp chống tia UV" },
+      { "id": 5, "text": "Miễn phí thường niên thẻ Eliv3", "color": "#F39C12", "textColor": "#FFFFFF", "voucherCode": "ELIV3-FREE-YEAR", "type": "card", "desc": "Đặc quyền miễn phí thường niên thẻ tín dụng quốc tế Eliv3" },
+      { "id": 6, "text": "5,000 Điểm Thưởng iPay Loyalty", "color": "#16A085", "textColor": "#FFFFFF", "voucherCode": "LOYALTY-5000P", "type": "points", "desc": "Tích điểm đổi quà trực tiếp trên app VietinBank iPay" },
+      { "id": 7, "text": "Voucher Phúc Long 30K", "color": "#004890", "textColor": "#FFFFFF", "voucherCode": "PL-TEA-30K", "type": "voucher", "desc": "Thưởng thức trà đào và trà sữa đậm vị" },
+      { "id": 8, "text": "Tài khoản Số đẹp Phong thuỷ", "color": "#ED1C24", "textColor": "#FFFFFF", "voucherCode": "LUCKY-ACC-VIP", "type": "account", "desc": "Giảm 100% phí chọn tài khoản số ngũ quý/lộc phát" }
+    ],
+    "quizQuestions": [
+      {
+        "id": 1,
+        "question": "Từ 01/07/2024, các giao dịch chuyển tiền trên bao nhiêu tiền/lần bắt buộc phải xác thực sinh trắc học khuôn mặt?",
+        "options": [
+          "Từ 5 triệu đồng/lần",
+          "Từ 10 triệu đồng/lần",
+          "Từ 20 triệu đồng/lần",
+          "Từ 50 triệu đồng/lần"
+        ],
+        "correctIndex": 1,
+        "explanation": "Chính xác! Theo Quyết định 2345/QĐ-NHNN, giao dịch chuyển khoản trên 10 triệu đồng/lần hoặc tổng giao dịch ngày vượt 20 triệu đồng cần xác thực khuôn mặt."
+      },
+      {
+        "id": 2,
+        "question": "Thẻ kép đa năng VietinBank Eliv3 mang lại ưu đãi nổi bật nào cho chủ thẻ?",
+        "options": [
+          "Hoàn tiền tới 10% các dịch vụ giải trí, du lịch, mua sắm và hoàn 100% phí thường niên",
+          "Chỉ dùng để rút tiền tại cây ATM",
+          "Không tích lũy điểm thưởng",
+          "Phải duy trì số dư tối thiểu 10 triệu đồng"
+        ],
+        "correctIndex": 0,
+        "explanation": "Chính xác! Thẻ Eliv3 là thẻ tích hợp 2 đầu chip (ATM + Tín dụng) với hoàn tiền 10% và hệ sinh thái giải trí đỉnh cao."
+      },
+      {
+        "id": 3,
+        "question": "Khách hàng gửi tiết kiệm online trên VietinBank iPay nhận được lợi ích gì so với gửi tại quầy?",
+        "options": [
+          "Mức lãi suất thấp hơn",
+          "Lãi suất được cộng thêm ưu đãi lên đến 0.3%/năm và quản lý sổ 24/7",
+          "Bị thu phí quản lý tài khoản",
+          "Không được rút tiền trước hạn"
+        ],
+        "correctIndex": 1,
+        "explanation": "Chính xác! Gửi tiết kiệm online trên app VietinBank iPay tiện lợi, bảo mật tuyệt đối và được cộng thêm lãi suất hấp dẫn."
+      },
+      {
+        "id": 4,
+        "question": "Số điện thoại Tổng đài Chăm sóc Khách hàng 24/7 chính thức của VietinBank là số nào?",
+        "options": [
+          "1900 1234",
+          "1900 558 868",
+          "1800 6677",
+          "024 113"
+        ],
+        "correctIndex": 1,
+        "explanation": "Chính xác! Hotline chính thức hoạt động 24/7 của VietinBank là 1900 558 868 (hoặc 024 3941 8868)."
+      }
+    ]
+  },
+  "savingsSection": {
+    "title": "Công Cụ Dự Toán Lãi Tiền Gửi Tiết Kiệm",
+    "subtitle": "Tính toán nhanh chóng số tiền lãi sinh lời dựa trên biểu lãi suất cập nhật mới nhất",
+    "currency": "VNĐ",
+    "defaultAmount": 100000000,
+    "minAmount": 1000000,
+    "maxAmount": 50000000000,
+    "ratePackages": [
+      {
+        "term": "1",
+        "label": "1 Tháng",
+        "counterRate": 2.0,
+        "onlineRate": 2.2,
+        "popular": false
+      },
+      {
+        "term": "3",
+        "label": "3 Tháng",
+        "counterRate": 2.3,
+        "onlineRate": 2.5,
+        "popular": false
+      },
+      {
+        "term": "6",
+        "label": "6 Tháng",
+        "counterRate": 3.5,
+        "onlineRate": 3.8,
+        "popular": true
+      },
+      {
+        "term": "9",
+        "label": "9 Tháng",
+        "counterRate": 3.5,
+        "onlineRate": 3.8,
+        "popular": false
+      },
+      {
+        "term": "12",
+        "label": "12 Tháng (1 Năm)",
+        "counterRate": 4.8,
+        "onlineRate": 5.1,
+        "popular": true
+      },
+      {
+        "term": "18",
+        "label": "18 Tháng",
+        "counterRate": 5.0,
+        "onlineRate": 5.3,
+        "popular": false
+      },
+      {
+        "term": "24",
+        "label": "24 Tháng (2 Năm)",
+        "counterRate": 5.0,
+        "onlineRate": 5.3,
+        "popular": false
+      },
+      {
+        "term": "36",
+        "label": "36 Tháng (3 Năm)",
+        "counterRate": 5.0,
+        "onlineRate": 5.3,
+        "popular": false
+      }
+    ],
+    "methods": [
+      { "id": "end_term", "name": "Nhận lãi cuối kỳ", "desc": "Hưởng trọn vẹn số tiền lãi tối đa vào ngày đáo hạn sổ." },
+      { "id": "monthly", "name": "Nhận lãi định kỳ hàng tháng", "desc": "Tiền lãi tự động chuyển vào tài khoản thanh toán mỗi tháng chi tiêu." },
+      { "id": "prepaid", "name": "Nhận lãi trước", "desc": "Nhận toàn bộ tiền lãi ngay tại thời điểm mở sổ tiết kiệm." }
+    ]
+  },
+  "loanSection": {
+    "title": "Bảng Tính Lịch Trả Nợ Khoản Vay",
+    "subtitle": "Kế hoạch tài chính minh bạch, chi tiết từng kỳ giúp bạn chủ động quản lý ngân sách",
+    "currency": "VNĐ",
+    "defaultLoanAmount": 500000000,
+    "defaultTermMonths": 60,
+    "defaultPreferentialRate": 5.8,
+    "defaultPreferentialMonths": 12,
+    "defaultNormalRate": 8.5,
+    "loanProducts": [
+      {
+        "id": "home",
+        "name": "Vay Mua Nhà Ở / Đất Dự Án",
+        "maxTerm": 360,
+        "defaultRate": 5.8,
+        "desc": "Tài trợ tới 85% giá trị bất động sản, thời hạn vay lên đến 30 năm (360 tháng)."
+      },
+      {
+        "id": "car",
+        "name": "Vay Mua Xe Ô Tô",
+        "maxTerm": 96,
+        "defaultRate": 6.5,
+        "desc": "Lãi suất ưu đãi cố định, tài trợ 80% giá trị xe, phê duyệt hồ sơ trong 8 giờ."
+      },
+      {
+        "id": "business",
+        "name": "Vay Sản Xuất Kinh Doanh",
+        "maxTerm": 120,
+        "defaultRate": 5.2,
+        "desc": "Hạn mức linh hoạt, lãi suất cạnh tranh hỗ trợ hộ kinh doanh & doanh nghiệp nhỏ."
+      },
+      {
+        "id": "consumer",
+        "name": "Vay Tiêu Dùng Không TSBĐ (Thấu Chi)",
+        "maxTerm": 60,
+        "defaultRate": 9.5,
+        "desc": "Thủ tục đơn giản qua lương, giải ngân trực tiếp vào tài khoản iPay trong ngày."
+      }
+    ],
+    "calculationMethods": [
+      {
+        "id": "reducing_balance",
+        "name": "Dư nợ giảm dần",
+        "desc": "Tiền gốc chia đều mỗi kỳ, tiền lãi tính trên số tiền gốc thực tế còn lại. Tổng lãi phải trả thấp hơn.",
+        "recommended": true
+      },
+      {
+        "id": "equal_payment",
+        "name": "Gốc lãi chia đều (Niên kim)",
+        "desc": "Tổng số tiền trả hàng tháng (gốc + lãi) cố định bằng nhau, dễ dự trù tài chính sinh hoạt.",
+        "recommended": false
+      }
+    ]
+  },
+  "productsSection": {
+    "title": "Sản Phẩm & Dịch Vụ Nổi Bật",
+    "subtitle": "Khám phá giải pháp tài chính vượt trội được cá nhân hóa dành riêng cho bạn",
+    "categories": [
+      { "id": "all", "label": "Tất cả" },
+      { "id": "card", "label": "Thẻ thanh toán & Tín dụng" },
+      { "id": "account", "label": "Tài khoản số đẹp" },
+      { "id": "priority", "label": "Khách hàng Ưu tiên" },
+      { "id": "borrow", "label": "Gói vay vốn" },
+      { "id": "bancassurance", "label": "Bảo hiểm tài chính" }
+    ],
+    "items": [
+      {
+        "id": "prod-1",
+        "category": "card",
+        "title": "Thẻ Kép VietinBank Eliv3",
+        "tag": "Hot Nhất 2026",
+        "highlight": "Hoàn tiền lên tới 10% & Miễn phí thường niên",
+        "image": "./assets/card_eliv3.svg",
+        "description": "Thẻ kép đầu tiên tại Việt Nam tích hợp 2 đầu chip: Thẻ ghi nợ nội địa và Thẻ tín dụng quốc tế trên cùng 1 phôi thẻ vật lý cao cấp.",
+        "features": [
+          "Hoàn tiền 10% tại hệ sinh thái giải trí, xem phim, ẩm thực, du lịch",
+          "Miễn phí thường niên trọn đời khi đạt điều kiện chi tiêu",
+          "Tích điểm đổi quà vé concert, sự kiện âm nhạc hot nhất",
+          "Hạn mức tín dụng linh hoạt lên tới 1 tỷ đồng"
+        ],
+        "actionText": "Tư vấn mở thẻ ngay"
+      },
+      {
+        "id": "prod-2",
+        "category": "priority",
+        "title": "VietinBank Premium Banking",
+        "tag": "Đẳng Cấp Vượt Trội",
+        "highlight": "Đặc quyền chăm sóc dành riêng cho VIP",
+        "image": "./assets/vietinbank_priority.svg",
+        "description": "Không gian giao dịch sang trọng riêng biệt, chuyên gia tư vấn tài chính chuyên biệt (RM) và hệ sinh thái đặc quyền thượng lưu.",
+        "features": [
+          "Phòng chờ sân bay Quốc tế thương gia không giới hạn",
+          "Đặc quyền dịch vụ thể thao Golf đẳng cấp tại các sân hàng đầu",
+          "Ưu đãi cộng thêm lãi suất tiền gửi và giảm lãi suất vay vốn",
+          "Đường dây nóng VIP hotline phục vụ 24/7 không chờ đợi"
+        ],
+        "actionText": "Đăng ký thành viên VIP"
+      },
+      {
+        "id": "prod-3",
+        "category": "account",
+        "title": "Tài Khoản Alias & Số Đẹp May Mắn",
+        "tag": "Phong Cách Riêng",
+        "highlight": "Đặt biệt danh tài khoản thay cho dãy số",
+        "image": "./assets/account_alias.svg",
+        "description": "Tự do chọn số tài khoản theo số điện thoại, ngày kỷ niệm, biển số xe hoặc dùng Tên riêng, Nickname, Tên shop làm số tài khoản.",
+        "features": [
+          "Chuyển tiền siêu dễ bằng cách gõ Biệt danh thay vì nhớ dãy số dài",
+          "Kho số đẹp phong thuỷ: Tứ quý, Thần tài, Lộc phát với chi phí 0đ",
+          "Tích hợp mã QR cá nhân hoá phong cách sành điệu",
+          "Kích hoạt sử dụng ngay lập tức sau 1 phút"
+        ],
+        "actionText": "Chọn số đẹp ngay"
+      },
+      {
+        "id": "prod-4",
+        "category": "borrow",
+        "title": "Gói Vay 'Tiếp Vốn Yêu Thương / An Gia'",
+        "tag": "Lãi Suất Siêu Thấp",
+        "highlight": "Lãi suất chỉ từ 5.6%/năm cố định",
+        "image": "./assets/loan_package.svg",
+        "description": "Giải pháp tài trợ vốn mua nhà, sửa nhà và mua ô tô với chính sách lãi suất cạnh tranh nhất thị trường và ân hạn nợ gốc.",
+        "features": [
+          "Lãi suất ưu đãi chỉ từ 5.6%/năm trong 12 hoặc 24 tháng đầu",
+          "Thời hạn vay tối đa lên tới 35 năm (420 tháng)",
+          "Ân hạn nợ gốc lên tới 24 tháng giảm bớt gánh nặng tài chính",
+          "Thủ tục phê duyệt nhanh chóng, chấp nhận tài sản bảo đảm đa dạng"
+        ],
+        "actionText": "Đăng ký thẩm định hồ sơ"
+      },
+      {
+        "id": "prod-5",
+        "category": "bancassurance",
+        "title": "Bảo Hiểm Toàn Diện VietinBank - VBI",
+        "tag": "Bảo Vệ Tài Chính",
+        "highlight": "Bảo an tín dụng & Sức khoẻ gia đình",
+        "image": "./assets/insurance_vbi.svg",
+        "description": "Lá chắn tài chính vững vàng bảo vệ bạn và gia đình trước các rủi ro sức khỏe, tai nạn và đảm bảo an toàn cho khoản vay ngân hàng.",
+        "features": [
+          "Bồi thường nhanh chóng trong 24 giờ qua app VBI / VietinBank iPay",
+          "Bảo lãnh viện phí tại hơn 300 bệnh viện quốc tế hàng đầu",
+          "Giảm trừ lãi suất vay vốn ngân hàng khi tham gia kèm khoản vay",
+          "Mức phí linh hoạt chỉ từ vài nghìn đồng mỗi ngày"
+        ],
+        "actionText": "Xem gói bảo hiểm"
+      },
+      {
+        "id": "prod-6",
+        "category": "card",
+        "title": "Thẻ Tín Dụng Quốc Tế VietinBank JCB Ultimate",
+        "tag": "Đặc Quyền Nhật Bản",
+        "highlight": "Trải nghiệm ẩm thực & du lịch cao cấp",
+        "image": "./assets/card_jcb_ultimate.svg",
+        "description": "Dòng thẻ cao cấp nhất của tổ chức thẻ quốc tế JCB kết hợp cùng VietinBank, thiết kế mạ vàng sang trọng với biểu tượng hoa sen.",
+        "features": [
+          "Miễn phí set ăn cao cấp tại các nhà hàng Nhật Bản chuẩn sao Michelin",
+          "Miễn phí phòng chờ sân bay quốc tế tại Nhật Bản, Singapore, Việt Nam",
+          "Bảo hiểm du lịch toàn cầu với quyền lợi lên đến 10.5 tỷ đồng",
+          "Hỗ trợ Concierge toàn cầu 24/7 bằng tiếng Việt"
+        ],
+        "actionText": "Xem chi tiết thẻ"
+      }
+    ]
+  },
+  "branchesSection": {
+    "title": "Mạng Lưới Điểm Giao Dịch & R-ATM",
+    "subtitle": "Tìm kiếm Chi nhánh, Phòng giao dịch và Cây nộp rút tiền tự động CDM gần nhất",
+    "hotlineSupport": "1900 558 868",
+    "regions": [
+      { "id": "all", "name": "Tất cả khu vực" },
+      { "id": "hanoi", "name": "Hà Nội" },
+      { "id": "hcm", "name": "TP. Hồ Chí Minh" },
+      { "id": "danang", "name": "Đà Nẵng" },
+      { "id": "haiphong", "name": "Hải Phòng" },
+      { "id": "cantho", "name": "Cần Thơ" }
+    ],
+    "types": [
+      { "id": "all", "label": "Tất cả điểm" },
+      { "id": "branch", "label": "Chi nhánh chính" },
+      { "id": "pgd", "label": "Phòng giao dịch" },
+      { "id": "ratm", "label": "Cây nộp rút tiền R-ATM 24/7" }
+    ],
+    "locations": [
+      {
+        "id": "loc-1",
+        "name": "VietinBank - Hội Sở Chính",
+        "type": "branch",
+        "region": "hanoi",
+        "address": "108 Trần Hưng Đạo, Phường Cửa Nam, Quận Hoàn Kiếm, Hà Nội",
+        "phone": "024 3942 1030",
+        "hours": "Thứ 2 - Thứ 6: 08:00 - 17:00 (Sáng Thứ 7: 08:00 - 11:30)",
+        "services": ["Quầy giao dịch VIP", "Tín dụng doanh nghiệp", "Dịch vụ kiều hối", "R-ATM nộp rút 24/7"],
+        "currentWaiting": 3,
+        "estimatedWaitMin": 6,
+        "isWorkingNow": true,
+        "mapUrl": "https://maps.google.com/?q=108+Tran+Hung+Dao+Hanoi"
+      },
+      {
+        "id": "loc-2",
+        "name": "VietinBank - Chi Nhánh TP. Hà Nội",
+        "type": "branch",
+        "region": "hanoi",
+        "address": "Số 6 Ngô Quyền, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",
+        "phone": "024 3825 8011",
+        "hours": "Thứ 2 - Thứ 6: 08:00 - 17:00",
+        "services": ["Giao dịch cá nhân", "Phát hành thẻ nhanh", "Tư vấn vay vốn", "Cây ATM"],
+        "currentWaiting": 5,
+        "estimatedWaitMin": 10,
+        "isWorkingNow": true,
+        "mapUrl": "https://maps.google.com/?q=6+Ngo+Quyen+Hanoi"
+      },
+      {
+        "id": "loc-3",
+        "name": "VietinBank - Chi Nhánh TP. Hồ Chí Minh",
+        "type": "branch",
+        "region": "hcm",
+        "address": "79A Hàm Nghi, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+        "phone": "028 3829 7266",
+        "hours": "Thứ 2 - Thứ 6: 07:30 - 16:30 (Sáng Thứ 7: 08:00 - 11:30)",
+        "services": ["Trung tâm Premium Banking", "Giao dịch quốc tế", "Két an toàn", "R-ATM 24/7"],
+        "currentWaiting": 2,
+        "estimatedWaitMin": 4,
+        "isWorkingNow": true,
+        "mapUrl": "https://maps.google.com/?q=79A+Ham+Nghi+District+1+HCM"
+      },
+      {
+        "id": "loc-4",
+        "name": "VietinBank - PGD Bến Thành",
+        "type": "pgd",
+        "region": "hcm",
+        "address": "125 Lê Lợi, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh",
+        "phone": "028 3821 5440",
+        "hours": "Thứ 2 - Thứ 6: 08:00 - 17:00",
+        "services": ["Mở tài khoản thanh toán", "Đổi ngoại tệ du lịch", "Thanh toán hoá đơn"],
+        "currentWaiting": 4,
+        "estimatedWaitMin": 8,
+        "isWorkingNow": true,
+        "mapUrl": "https://maps.google.com/?q=125+Le+Loi+District+1+HCM"
+      },
+      {
+        "id": "loc-5",
+        "name": "VietinBank - R-ATM Thông Minh Hàm Nghi 24/7",
+        "type": "ratm",
+        "region": "hcm",
+        "address": "79A Hàm Nghi, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh (Cửa ngoài)",
+        "phone": "1900 558 868",
+        "hours": "Hoạt động liên tục 24/7 cả Lễ, Tết",
+        "services": ["Nộp tiền mặt vào tài khoản tối đa 100 triệu/lần", "Rút tiền mặt bằng mã QR", "Đổi mã PIN", "Tra cứu số dư"],
+        "currentWaiting": 1,
+        "estimatedWaitMin": 2,
+        "isWorkingNow": true,
+        "mapUrl": "https://maps.google.com/?q=79A+Ham+Nghi+District+1+HCM"
+      },
+      {
+        "id": "loc-6",
+        "name": "VietinBank - Chi Nhánh Đà Nẵng",
+        "type": "branch",
+        "region": "danang",
+        "address": "218 Bạch Đằng, Phường Phước Ninh, Quận Hải Châu, Đà Nẵng",
+        "phone": "0236 382 2542",
+        "hours": "Thứ 2 - Thứ 6: 07:30 - 16:30 (Sáng Thứ 7: 08:00 - 11:30)",
+        "services": ["Tư vấn vay mua nhà đất", "Gửi tiết kiệm", "R-ATM nộp tiền 24/7", "VietinBank VIP lounge"],
+        "currentWaiting": 3,
+        "estimatedWaitMin": 5,
+        "isWorkingNow": true,
+        "mapUrl": "https://maps.google.com/?q=218+Bach+Dang+Hai+Chau+Da+Nang"
+      },
+      {
+        "id": "loc-7",
+        "name": "VietinBank - Chi Nhánh Lê Chân Hải Phòng",
+        "type": "branch",
+        "region": "haiphong",
+        "address": "124 Nguyễn Đức Cảnh, Phường Cát Dài, Quận Lê Chân, Hải Phòng",
+        "phone": "0225 385 9931",
+        "hours": "Thứ 2 - Thứ 6: 08:00 - 17:00",
+        "services": ["Tín dụng sản xuất kinh doanh", "Phát hành thẻ", "Bảo lãnh ngân hàng"],
+        "currentWaiting": 2,
+        "estimatedWaitMin": 4,
+        "isWorkingNow": true,
+        "mapUrl": "https://maps.google.com/?q=124+Nguyen+Duc+Canh+Le+Chan+Hai+Phong"
+      },
+      {
+        "id": "loc-8",
+        "name": "VietinBank - Chi Nhánh Cần Thơ",
+        "type": "branch",
+        "region": "cantho",
+        "address": "Số 9 Phan Đình Phùng, Phường Tân An, Quận Ninh Kiều, Cần Thơ",
+        "phone": "0292 382 0451",
+        "hours": "Thứ 2 - Thứ 6: 07:30 - 16:30",
+        "services": ["Cho vay nông nghiệp kỹ thuật cao", "Tiết kiệm tích lũy", "ATM / R-ATM 24/7"],
+        "currentWaiting": 4,
+        "estimatedWaitMin": 7,
+        "isWorkingNow": true,
+        "mapUrl": "https://maps.google.com/?q=9+Phan+Dinh+Phung+Ninh+Kieu+Can+Tho"
+      }
+    ]
+  },
+  "feedbackAndCallStaff": {
+    "title": "Cần Hỗ Trợ Trực Tiếp Tại Quầy?",
+    "description": "Quý khách có thể yêu cầu Giao dịch viên hoặc Chuyên viên tư vấn hỗ trợ ngay tại vị trí",
+    "callStaffButton": "Mời Giao dịch viên hỗ trợ",
+    "callSuccess": "Đã gửi thông báo tới Giao dịch viên phụ trách quầy. Quý khách vui lòng chờ trong giây lát!"
+  }
+}

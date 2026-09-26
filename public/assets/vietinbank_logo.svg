@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- VietinBank Brand Icon: Dual Cresent / Coin Symbol in deep navy and vibrant red -->
+  <g transform="translate(10, 10)">
+    <!-- Blue outer arc -->
+    <path d="M 30,5 A 25,25 0 0,0 5,30 A 25,25 0 0,0 30,55 A 25,25 0 0,0 47,48 L 40,40 A 15,15 0 0,1 30,44 A 14,14 0 0,1 16,30 A 14,14 0 0,1 30,16 A 15,15 0 0,1 41,21 L 48,13 A 25,25 0 0,0 30,5 Z" fill="#004890"/>
+    <!-- Red inner crescent/coin petal -->
+    <path d="M 30,5 A 25,25 0 0,1 55,30 A 25,25 0 0,1 30,55 L 30,44 A 14,14 0 0,0 44,30 A 14,14 0 0,0 30,16 Z" fill="#ED1C24"/>
+    <!-- Central square aperture / coin cut -->
+    <rect x="25" y="25" width="10" height="10" rx="1.5" fill="#F4F7FC"/>
+  </g>
+  <!-- VietinBank Wordmark -->
+  <text x="80" y="44" font-family="'Plus Jakarta Sans', 'Arial', sans-serif" font-size="28" font-weight="800" fill="#004890" letter-spacing="-0.5">Vietin<tspan fill="#009FE3">Bank</tspan></text>
+  <text x="82" y="60" font-family="'Plus Jakarta Sans', 'Arial', sans-serif" font-size="10" font-weight="600" fill="#ED1C24" letter-spacing="1.5">NÂNG GIÁ TRỊ CUỘC SỐNG</text>
+</svg>

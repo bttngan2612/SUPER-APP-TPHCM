@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 560" fill="none">
+  <!-- Phone Outer Frame -->
+  <rect x="10" y="10" width="300" height="540" rx="44" fill="#0F172A" stroke="#334155" stroke-width="4"/>
+  <!-- Phone Screen -->
+  <rect x="22" y="22" width="276" height="516" rx="34" fill="#F8FAFC"/>
+
+  <!-- Dynamic Island / Speaker -->
+  <rect x="110" y="32" width="100" height="20" rx="10" fill="#0F172A"/>
+
+  <!-- Screen Content: VietinBank iPay Mobile UI -->
+  <rect x="22" y="22" width="276" height="150" fill="#004890"/>
+  <!-- Status bar time & icons -->
+  <text x="45" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">09:41</text>
+  <text x="250" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">5G</text>
+
+  <!-- User Greeting -->
+  <circle cx="50" cy="85" r="18" fill="#FFFFFF" fill-opacity="0.2"/>
+  <text x="50" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">A</text>
+  <text x="80" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#BFDBFE">Xin chào,</text>
+  <text x="80" y="96" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">NGUYỄN VĂN A</text>
+
+  <!-- Balance card inside app -->
+  <g transform="translate(36, 120)">
+    <rect width="248" height="90" rx="16" fill="#FFFFFF" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.08))"/>
+    <text x="16" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#64748B">TÀI KHOẢN THANH TOÁN</text>
+    <text x="16" y="52" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="800" fill="#004890">128,500,000 <tspan font-size="12">VND</tspan></text>
+    <text x="16" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#009FE3">Số TK: 1088 8899 9999 • Đã kích hoạt FacePay</text>
+  </g>
+
+  <!-- Quick Actions Grid -->
+  <g transform="translate(36, 230)">
+    <!-- Action 1 -->
+    <rect x="0" y="0" width="55" height="55" rx="14" fill="#EFF6FF"/>
+    <circle cx="27" cy="24" r="12" fill="#004890"/>
+    <text x="27" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">⇄</text>
+    <text x="27" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#1E293B" text-anchor="middle">Chuyển tiền</text>
+
+    <!-- Action 2 -->
+    <rect x="64" y="0" width="55" height="55" rx="14" fill="#EFF6FF"/>
+    <circle cx="91" cy="24" r="12" fill="#009FE3"/>
+    <text x="91" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">☷</text>
+    <text x="91" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#1E293B" text-anchor="middle">Quét QR</text>
+
+    <!-- Action 3 -->
+    <rect x="128" y="0" width="55" height="55" rx="14" fill="#EFF6FF"/>
+    <circle cx="155" cy="24" r="12" fill="#ED1C24"/>
+    <text x="155" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">★</text>
+    <text x="155" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#1E293B" text-anchor="middle">Tiết kiệm</text>
+
+    <!-- Action 4 -->
+    <rect x="192" y="0" width="55" height="55" rx="14" fill="#EFF6FF"/>
+    <circle cx="219" cy="24" r="12" fill="#10B981"/>
+    <text x="219" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">⚡</text>
+    <text x="219" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#1E293B" text-anchor="middle">Hoá đơn</text>
+  </g>
+
+  <!-- Promo Banner inside App -->
+  <g transform="translate(36, 310)">
+    <rect width="248" height="85" rx="14" fill="#004890"/>
+    <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#FFFFFF">Gửi Tiết Kiệm iPay</text>
+    <text x="16" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#93C5FD">Cộng thêm tới 0.3%/năm lãi suất</text>
+    <rect x="16" y="55" width="90" height="20" rx="10" fill="#ED1C24"/>
+    <text x="61" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">Gửi ngay ➜</text>
+  </g>
+
+  <!-- Lifestyle Services -->
+  <g transform="translate(36, 415)">
+    <text x="0" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#1E293B">Hệ sinh thái tiện ích</text>
+    <rect x="0" y="25" width="76" height="48" rx="10" fill="#F1F5F9"/>
+    <text x="38" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#475569" text-anchor="middle">✈ Vé máy bay</text>
+
+    <rect x="86" y="25" width="76" height="48" rx="10" fill="#F1F5F9"/>
+    <text x="124" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#475569" text-anchor="middle">🎬 Vé xem phim</text>
+
+    <rect x="172" y="25" width="76" height="48" rx="10" fill="#F1F5F9"/>
+    <text x="210" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#475569" text-anchor="middle">🛒 Mua sắm</text>
+  </g>
+</svg>

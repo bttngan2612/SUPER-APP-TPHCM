@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <defs>
+    <linearGradient id="loanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2B48"/>
+      <stop offset="100%" stop-color="#1A535C"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="18" fill="url(#loanGrad)"/>
+  
+  <text x="28" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Vietin<tspan fill="#4ECDC4">Bank</tspan></text>
+  <text x="28" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#4ECDC4" letter-spacing="1">GÓI VAY AN GIA & TIẾP VỐN</text>
+
+  <!-- Big Rate Callout -->
+  <rect x="28" y="85" width="180" height="75" rx="12" fill="#FFFFFF" fill-opacity="0.1" stroke="#4ECDC4" stroke-width="1.5"/>
+  <text x="40" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#A0AEC0">LÃI SUẤT TỪ</text>
+  <text x="40" y="146" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="800" fill="#FFE66D">5.6%<tspan font-size="16">/năm</tspan></text>
+
+  <!-- House silhouette illustration -->
+  <path d="M 280,150 L 320,110 L 360,150 L 360,200 L 280,200 Z" fill="#4ECDC4" opacity="0.3"/>
+  <path d="M 305,200 L 305,170 L 335,170 L 335,200 Z" fill="#FFE66D" opacity="0.6"/>
+
+  <text x="28" y="190" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Tài trợ 85% giá trị Bất Động Sản</text>
+  <text x="28" y="215" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#CBD5E1">Thời hạn vay tới 35 năm • Ân hạn nợ gốc tới 24 tháng</text>
+</svg>

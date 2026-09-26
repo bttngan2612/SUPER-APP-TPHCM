@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <defs>
+    <linearGradient id="eliv3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1B4D"/>
+      <stop offset="40%" stop-color="#004890"/>
+      <stop offset="80%" stop-color="#009FE3"/>
+      <stop offset="100%" stop-color="#FF3366"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEE21"/>
+      <stop offset="100%" stop-color="#D7DF23"/>
+    </linearGradient>
+  </defs>
+  <!-- Card Base with Glowing Mesh -->
+  <rect width="400" height="250" rx="18" fill="url(#eliv3Grad)"/>
+  <circle cx="340" cy="50" r="120" fill="#FF3366" opacity="0.25"/>
+  <circle cx="80" cy="220" r="90" fill="#009FE3" opacity="0.3"/>
+
+  <!-- Holographic Waves -->
+  <path d="M 0,160 Q 150,110 260,180 T 400,140 L 400,250 L 0,250 Z" fill="#FFFFFF" opacity="0.08"/>
+  <path d="M 0,190 Q 180,140 280,210 T 400,180 L 400,250 L 0,250 Z" fill="#009FE3" opacity="0.15"/>
+
+  <!-- VietinBank Brand -->
+  <text x="28" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Vietin<tspan fill="#009FE3">Bank</tspan></text>
+  <text x="28" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#FF3366" letter-spacing="1">ELIV3 DUAL CARD</text>
+
+  <!-- Dual EMV Chips -->
+  <rect x="28" y="80" width="38" height="28" rx="5" fill="url(#chipGrad)"/>
+  <line x1="28" y1="94" x2="66" y2="94" stroke="#A89B00" stroke-width="1"/>
+  <line x1="47" y1="80" x2="47" y2="108" stroke="#A89B00" stroke-width="1"/>
+  <rect x="36" y="88" width="22" height="12" rx="3" fill="none" stroke="#A89B00" stroke-width="1"/>
+
+  <!-- Contactless NFC Icon -->
+  <path d="M 80,86 A 8,8 0 0,1 80,102 M 85,82 A 14,14 0 0,1 85,106 M 90,78 A 20,20 0 0,1 90,110" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.85"/>
+
+  <!-- Card Number & Holder -->
+  <text x="28" y="170" font-family="'Space Grotesk', monospace" font-size="17" font-weight="600" fill="#FFFFFF" letter-spacing="3">•••• 5689 •••• 8888</text>
+  <text x="28" y="215" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="1">NGUYEN VAN A</text>
+  <text x="180" y="215" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#CBD5E1">08/29</text>
+
+  <!-- Card Networks: Dual Mastercard + Napas -->
+  <g transform="translate(310, 185)">
+    <circle cx="16" cy="18" r="16" fill="#EB001B" opacity="0.9"/>
+    <circle cx="34" cy="18" r="16" fill="#F79E1B" opacity="0.9"/>
+  </g>
+  <text x="320" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#00FFCC" text-anchor="middle">10% CASHBACK</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <defs>
+    <linearGradient id="vbiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004890"/>
+      <stop offset="100%" stop-color="#ED1C24"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="18" fill="url(#vbiGrad)"/>
+  
+  <text x="28" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Vietin<tspan fill="#FED7D7">Bank</tspan> • <tspan fill="#FFFFFF">VBI</tspan></text>
+  <text x="28" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#FED7D7" letter-spacing="1">BẢO HIỂM TOÀN DIỆN VBI</text>
+
+  <!-- Shield icon -->
+  <g transform="translate(300, 40)">
+    <path d="M 30,10 L 60,20 L 60,50 Q 60,80 30,95 Q 0,80 0,50 L 0,20 Z" fill="#FFFFFF" fill-opacity="0.2" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 20,50 L 28,58 L 42,40" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <text x="28" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">BẢO AN TÍN DỤNG & SỨC KHỎE</text>
+  <text x="28" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#FFF5F5">Bảo lãnh viện phí tại hơn 300 bệnh viện quốc tế</text>
+
+  <rect x="28" y="175" width="220" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.2"/>
+  <text x="138" y="198" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">BỒI THƯỜNG TRONG 24H QUA APP</text>
+</svg>
